@@ -1,9 +1,11 @@
+import TopNavbar from "./components/TopNavbar";
+
 const App = () => {
   return (
     <div>
-      123
+      <TopNavbar />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
